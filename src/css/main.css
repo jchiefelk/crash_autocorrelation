@@ -1,0 +1,69 @@
+
+#About-Me {
+	color: black;
+	font-size: 2.1em;
+	font-weight: 500; 
+	font-family: 'Arial';
+	text-decoration: 'none';
+	margin-top: 5;
+}
+.app {
+	display: flex; 
+	flex-direction: column; 
+	background-color: transparent;
+}
+.marketpage {
+	display: flex;
+	flex-direction: column;
+	background-color: transparent; 
+
+
+}
+.marketgraph {
+	background-color: transparent;
+	align-items: center;
+	width: 50em;
+	height: 40em;
+	justify-content: center;
+}
+.bitcoingraph {
+	background-color: transparent;
+	align-items: center;
+	width: 100%;
+	height: 40vh;
+	justify-content: center;
+}
+
+.cryptoexchangeview {
+
+	display: flex;
+	background-color: transparent;
+	align-items: center;
+	width: 100%;
+	height: 40vh;
+	justify-content: center;
+}
+
+.autocorrelationgraph {
+	display: flex;
+	background-color: transparent;
+	width: 50em;
+	height: 15em;
+}
+
+.loader {
+	align-self: center;
+	align-items: center;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 20em;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
